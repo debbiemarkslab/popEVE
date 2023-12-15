@@ -1,0 +1,7 @@
+evo_model,protein_id,counter,unique_id,seen_count,not_seen_count,file_path
+ESM1V_ensemble_mean,NP_004721.1,13310,NP_004721.1_ESM1V_ensemble_mean_13310,80,8223,./data/NP_004721.1_ESM1V_ensemble_mean_13310.csv
+ESM1V_ensemble_mean,NP_001518.3,33313,NP_001518.3_ESM1V_ensemble_mean_33313,121,9151,./data/NP_001518.3_ESM1V_ensemble_mean_33313.csv
+EVE_index,NP_001001659.1,5894,NP_001001659.1_EVE_index_5894,225,5665,./data/NP_001001659.1_EVE_index_5894.csv
+EVE_index,NP_004721.1,13306,NP_004721.1_EVE_index_13306,80,8223,./data/NP_004721.1_EVE_index_13306.csv
+EVE_index,NP_001518.3,33309,NP_001518.3_EVE_index_33309,121,9151,./data/NP_001518.3_EVE_index_33309.csv
+ESM1V_ensemble_mean,NP_001180276.1,72856,NP_001180276.1_esm1v_ensemble_mean_72856,135,9042,./data/NP_001180276.1_esm1v_ensemble_mean_72856.csv
