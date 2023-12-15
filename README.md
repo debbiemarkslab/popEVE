@@ -14,7 +14,7 @@ Genetic variation seen in the human population and across the tree of life provi
 In the paper, we used scores from EVE and ESM-1v as our cross-species scores, and UK Biobank data was used as our human cohort. Example training files can be found in the `data` folder. However, this code can be used with any model and any human cohort.
 
 # Examples
-A more in depth tutorial in Google Colab can be found here [TODO LINK]. An example bash script for running this code is here `train_popEVE_models.sh`. All output will appear in the `results` directory.
+An example bash script for running this code is here `train_popEVE_models.sh`. All output will appear in the `results` directory.
 
 # Software requirements
 The entire codebase is written in python. Package requirements are as follows:
