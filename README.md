@@ -8,7 +8,7 @@ popEVE is a model designed to place missense variants on a proteome-wide, human-
 
 <img src="./figs/model_summary.png" alt="Image" width="600">
 
-Genetic variation seen in the human population and across the tree of life provide complementary information for building a proteome-wide model of pathogenicity. Cross-species data enables missense resolution predictions, while variation seen in the human population can be used to obtain a proteome-wide, human-specific measure of constraint. The code provided here is designed to achieve this second step. It takes as input predictions for all single amino acid substitutions from a model trained on cross-species data, together with whether or not that variant has been seen in a given cohort of interest, and trains a new model to predict the presense or absense of a variant in that cohort, conditioned on the score from the input model.
+Genetic variation seen in the human population and across the tree of life provide complementary information for building a proteome-wide model of pathogenicity. Cross-species data enables missense resolution predictions, while variation seen in the human population can be used to obtain a proteome-wide, human-specific measure of constraint. The code provided here is designed to achieve this second step. It takes as input predictions for all single amino acid substitutions from a model trained on cross-species data, together with whether or not that variant has been seen in a given cohort of interest, and trains a new model to predict the presence or absence of a variant in that cohort, conditioned on the score from the input model.
 
 # Data Requirements
 In the paper, we used scores from EVE and ESM-1v as our cross-species scores, and UK Biobank data was used as our human cohort. Example training files can be found in the `data` folder. However, this code can be used with any model and any human cohort.
@@ -24,11 +24,13 @@ The entire codebase is written in python. Package requirements are as follows:
   - pandas
   - tqdm
 
-The corresponding environment can be created via conda with the popeve_env.yml file as follows:
+The corresponding environment can be created via conda with the popeve_env_linux.yml (or popeve_env_macos.yml) file as follows:
 ```
-  conda env create -f popeve_env.yml
+  conda env create -f popeve_env_linux.yml
   conda activate popeve_env
 ```
+
+An bash script for installing all dependencies in a clean Ubuntu 24.04 system is available here `linux_setup.sh`.
 
 ## License
 This project is available under the MIT license.
