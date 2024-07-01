@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Example usage of train_popEVE.py
+# Runtime ~4 minutes on an AWS p3.2xlarge instance
+
 # Add line here to activate conda environment, or make sure to activate conda environment before running this script.
 
 export mapping_file='example_mapping.csv'
