@@ -30,7 +30,7 @@ The corresponding environment can be created via conda with the popeve_env_linux
   conda activate popeve_env
 ```
 
-An bash script for installing all dependencies in a clean Ubuntu 24.04 system is available here `linux_setup.sh`.
+A bash script for installing all dependencies in a clean Ubuntu 24.04 system is available here `linux_setup.sh`.
 
 ## License
 This project is available under the MIT license.
