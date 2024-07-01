@@ -1,7 +1,7 @@
 # TODO Have to stop as Luis is awake. 
 # What is currently here is the code from the tutorial
 # You need to now merge this with other cells from the tutorial to do with handling the data, cuda etc.
-# You need to also include the bits from the old script that are not present in the turorial
+# You need to also include the bits from the old script that are not present in the tutorial
 # You need to account for changes of file names etc
 
 import argparse
@@ -45,7 +45,7 @@ if __name__=='__main__':
     unique_train_output = train_y.unique(return_counts = True)
     unique_test_output = heldout_y.unique(return_counts = True)
     print(f"pid = {pid}")
-    print(f"Tain: y unique = {unique_train_output[0]}, y counts = {unique_train_output[1]}")
+    print(f"Train: y unique = {unique_train_output[0]}, y counts = {unique_train_output[1]}")
     print(f"Holdout: y unique = {unique_test_output[0]}, y counts = {unique_test_output[1]}")
 
     # Initialize the model with M = 20 inducing points
